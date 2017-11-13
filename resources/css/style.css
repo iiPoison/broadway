@@ -28,6 +28,7 @@ span { /* in the footer elem */
 
 .main-header { /* главный заголовок с меню навигации | main header with navigation menu */
   background-image: url("../images/the-flatiron-building.png");
+  background-size: cover; /* устанавливает картинку по всей ширине без швов | sets the image at full width without seams*/
   text-align: center;
   color: white;
 }
@@ -49,6 +50,7 @@ span { /* in the footer elem */
 #head-designed-in-new-york { /* уникальный заголовок h2 Designed in New York | unique header h2 "Designed in New York " */
   color: white;
   background-image: url(../images/the-flatiron-building.png);
+  background-size: cover; /* устанавливает картинку по всей ширине без швов | sets the image at full width without seams*/
   text-align: center;
 
 }
