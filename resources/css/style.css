@@ -1,8 +1,8 @@
-body {
+body { /* задаёт шрифт на всей страницы | sets the font for the entire page */
   font-family: Helvetica;
 }
 
-h1 {
+h1 { /* Главный заголовок | main-header */
   font-size: 70px;
   font-weight: bold;
 }
@@ -16,23 +16,39 @@ p{
   font-size: 14px;
 }
 
+span { /* in the footer elem */
+  font-size: 11px;
+}
 
-.btn-nav {
+
+.btn-nav { /* стилизует ссылки меню | stylize menu links */
   font-size: 18px;
   color: white;
 }
 
-.main-header {
+.main-header { /* главный заголовок с меню навигации | main header with navigation menu */
   background-image: url("../images/the-flatiron-building.png");
   text-align: center;
   color: white;
 }
 
-.our-process {
+.div-style { /* задаёт выравнивание по центру на div селекторах | specifies center alignment on the div selectors  */
   text-align: center;
 }
 
-#head-process {
+.footer { /* in the footer elem */
+    background-color: dimgray;
+    color: white;
+}
+
+#head-process { /* уникальный h2 заголовок Our Process | unique header h2  "Our Process" */
   font-size: 32px;
   font-weight: bold;
+}
+
+#head-designed-in-new-york { /* уникальный заголовок h2 Designed in New York | unique header h2 "Designed in New York " */
+  color: white;
+  background-image: url(../images/the-flatiron-building.png);
+  text-align: center;
+
 }
